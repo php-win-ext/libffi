@@ -15,43 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ffi.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\ffi_cfi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\include\ffi_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\fficonfig.h">
+    <ClInclude Include=".\aarch64_include\ffi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\ffitarget.h">
+    <ClInclude Include=".\aarch64_include\fficonfig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\internal.h">
+    <ClInclude Include="..\..\src\aarch64\ffitarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\aarch64\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\closures.c">
+    <ClCompile Include="..\..\src\closures.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\dlmalloc.c">
+    <ClCompile Include="..\..\src\dlmalloc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ffi.c">
+    <ClCompile Include="..\..\src\aarch64\ffi.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\prep_cif.c">
+    <ClCompile Include="..\..\src\prep_cif.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\types.c">
+    <ClCompile Include="..\..\src\types.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="src\win64_armasm.S" />
+    <CustomBuild Include="..\..\src\aarch64\win64_armasm.S" />
   </ItemGroup>
 </Project>
