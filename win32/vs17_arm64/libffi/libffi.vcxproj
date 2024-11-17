@@ -47,7 +47,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);FFI_BUILDING</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ARM64;_M_ARM64;_DEBUG;_LIB;%(PreprocessorDefinitions);FFI_BUILDING</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..\..\include;$(SolutionDir)..\..\src\aarch64;$(SolutionDir)..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -63,7 +63,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);FFI_BUILDING</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ARM64;_M_ARM64;NDEBUG;_LIB;%(PreprocessorDefinitions);FFI_BUILDING</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..\..\include;$(SolutionDir)..\..\src\aarch64;$(SolutionDir)..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
